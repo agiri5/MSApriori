@@ -17,6 +17,7 @@ def readInput():
         T.append(transaction)
 
 def readParams():
+    ''' reads parameters from the file '''
     f = open('parameter-file.txt','r')
 
     for line in f.readlines():
